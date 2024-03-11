@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    width: 900px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    /*list-style: none;*/
+    font-family: "Anta", sans-serif;
+}
+
+.basliq{
+ background-color: rgb(137, 115, 88);
+ width: 900px;
+height: 60px;
+/*position: fixed;*/
+
+}
+ .basliq_foto1 .fonfoto1{
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    width: 45px;
+    height: 45px;
+    margin-inline-start: 70px;   
+}
+.fonfoto1yazi{
+    text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+    color: rgb(202, 186, 159);
+    font-family: "Oleo Script", system-ui;
+    font-size: medium;
+    margin-inline-start: 70px;
+    position: absolute;
+    top:36px;
+    left: 60px;
+}
+.yazilar{
+    width: 300px;
+    display: flex;
+    position: absolute;
+    top:20px;
+    left: 35%;
+}
+.yazilar .yazilar1{
+    text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+    color: rgb(202, 186, 159);
+    font-family: "Dancing Script", cursive;
+    padding: 10px;
+}
+.lampa .lampa1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:44px;
+    left: 80%;
+}
+.papaq{
+    width: 23px;
+    height: 23px;
+    background-color: rgb(241, 240, 238);
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    top:28px;
+    left: 83.7%; 
+    text-shadow:  0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(248, 248, 250);
+}
+
+
+
+
+.modernimg{
+    background-position: c;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 900px;
+    height: 400px;
+}
+.modernimg1{
+    font-family: "Oleo Script", system-ui;
+    text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+     color: rgb(202, 186, 159); 
+     text-align: center;
+     padding-top: 100px;
+}
+.modernimg2{
+    font-family: "Oleo Script", system-ui;
+    text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+    color: rgb(202, 186, 159); 
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.mehsullar{
+    background-color: rgb(250, 248, 245);
+    width: 900px;
+    height: 900px; 
+}
+.mehsullar h1{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 5px 4px 7px  rgb(136, 77, 77);
+    margin-left: 10px;
+    margin: 10px;
+}
+.mehsullar p{
+    margin: 5px;
+    margin-left: 30px;
+}
+ .mehsul1 {
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+.mehsul1 .m1{
+    font-family: "Madimi One", sans-serif;
+   background-color: rgb(248, 248, 248);  
+   border-style: solid;
+   border-color: rgb(202, 186, 159);
+   width: 174px;
+   height: 200px;  
+   border-radius: 30px;
+   text-align: center;
+}
+ .m1 img{
+    width: 171px;
+   height: 141px;  
+  border-radius: 30px 30px  0px 0px;
+}
+ .m1 .btn{
+    
+    width: 60px;
+    height: 25px;
+    background-color: rgb(136, 37, 37);
+    border-radius: 6px; 
+   margin: 1px;
+   margin-left: 20px;
+ 
+ }
+ .m1 .lbl{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: smaller;
+ }
+.meh1{
+    font-family: "Oleo Script", system-ui;
+    color: rgb(61, 53, 39); 
+    text-align: center;
+    padding-top: 10px; 
+}
+.mehs1{
+    font-family: "Oleo Script", system-ui;
+    text-align: center;
+}
+
+
+
+
+.fon1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 900px;
+    height: 500px;
+
+}
+.avropa{
+    text-align: center;
+   padding-top: 100px;
+   font-family: "Oleo Script", system-ui;
+   text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+    color: rgb(202, 186, 159);
+}
+.metn1{
+    text-shadow: 1px 1px 2px rgb(26, 15, 15), 0 0 1em rgb(16, 16, 22), 0 0 0.2em rgb(25, 25, 32);
+     color: rgb(202, 186, 159); 
+     text-align: center;
+     padding-top: 100px;
+}
+.p1{
+    font-family: "Oleo Script", system-ui;
+    text-transform: capitalize;
+}
+.d1{
+    text-transform: uppercase;
+    font-family: "Oleo Script", system-ui;
+}
+
+
+
+
+
+ 
